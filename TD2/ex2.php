@@ -8,6 +8,7 @@
 <?php
 if(isset($_POST['salaire'])){
     $salo = $_POST['salaire'];
+    simo($salo);
 }
 else{
     $salo = 0;
